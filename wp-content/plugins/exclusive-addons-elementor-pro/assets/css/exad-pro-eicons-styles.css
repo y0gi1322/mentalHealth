@@ -1,0 +1,38 @@
+.exad-slider .slick-prev:before {
+  content: "\e89f";
+}
+.exad-slider .slick-next:before {
+  content: "\e89e";
+}
+.exad-slider .slick-next:before, 
+.exad-slider .slick-prev:before {
+  font-family: eicons;
+}
+.exad-woo-products-container.woocommerce .exad-woo-product-carousel-item .exad-single-woo-product-image .exad-single-woo-product-hover-items a:after {
+    font-family:eicons;
+    content:'\e8e9';
+}
+.exad-woo-products-container.woocommerce .exad-woo-product-carousel-item .exad-single-woo-product-image .exad-single-woo-product-hover-items a.loading:after {
+    font-family:eicons;
+    content:'\e931';
+}
+.exad-woo-products-container.woocommerce .exad-woo-product-carousel-item .exad-single-woo-product-image .exad-single-woo-product-hover-items a.added_to_cart:after {
+    font-family:eicons;
+    content:'\e90e';
+}
+.exad-woo-products.woocommerce .exad-woo-product-item .exad-single-woo-product-image .exad-single-woo-product-hover-items a:after {
+    font-family:eicons;
+    content:'\e8e9';
+}
+.exad-woo-products.woocommerce .exad-woo-product-item .exad-single-woo-product-image .exad-single-woo-product-hover-items a.exad-product-quickview-btn:after {
+    font-family:eicons;
+    content:'\e8ed';
+}
+.exad-woo-products.woocommerce .exad-woo-product-item .exad-single-woo-product-image .exad-single-woo-product-hover-items a.loading:after {
+    font-family:eicons;
+    content:'\e931';
+}
+.exad-woo-products.woocommerce .exad-woo-product-item .exad-single-woo-product-image .exad-single-woo-product-hover-items a.added_to_cart:after {
+    font-family:eicons;
+    content:'\e90e';
+}

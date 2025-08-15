@@ -1,0 +1,463 @@
+<?php get_header(); ?>
+<main class="flex-1">
+    <section
+        class="relative h-screen w-full overflow-hidden flex items-center justify-center bg-gray-900 text-white">
+        <div class="text-center">
+            <h1 class="text-5xl font-bold mb-6">Welcome to Your Healing Journey</h1>
+            <p class="text-xl mb-8">We&#x27;re here to talk about mental health.</p><button
+                class="bg-teal-500 hover:bg-teal-600 text-white px-6 py-3 rounded-xl shadow-lg transition">Begin
+                Your Healing</button>
+        </div>
+    </section>
+    <section class="py-12 sm:py-16 lg:py-20 bg-white px-4 sm:px-6 lg:px-8" id="about"
+        style="transform:translateY(0px)">
+        <div class="max-w-7xl mx-auto">
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-8 sm:gap-12 lg:gap-16 items-center">
+                <div class="transition-all duration-1000 opacity-0 -translate-x-12">
+                    <h2
+                        class="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-light text-blue-800 mb-6 sm:mb-8 leading-tight">
+                        Healing with<br /><span class="text-teal-700">Compassion</span></h2>
+                    <p class="text-lg sm:text-xl text-gray-700 mb-6 sm:mb-8 leading-relaxed">We believe mental
+                        health care should heal and empower. Our integrated approach combines evidence-based
+                        therapy with personalized treatment plans to create healing journeys that nurture both
+                        mind and spirit.</p>
+                    <div class="space-y-4 sm:space-y-6">
+                        <div class="flex items-start space-x-3 sm:space-x-4">
+                            <div class="w-2 h-2 bg-blue-600 rounded-full mt-2 sm:mt-3 flex-shrink-0"></div>
+                            <div>
+                                <h3 class="text-base sm:text-lg font-medium text-gray-900 mb-1 sm:mb-2">Holistic
+                                    Mental Wellness</h3>
+                                <p class="text-sm sm:text-base text-gray-600">From therapy sessions to wellness
+                                    programs, we optimize every aspect of your mental health journey</p>
+                            </div>
+                        </div>
+                        <div class="flex items-start space-x-3 sm:space-x-4">
+                            <div class="w-2 h-2 bg-blue-600 rounded-full mt-2 sm:mt-3 flex-shrink-0"></div>
+                            <div>
+                                <h3 class="text-base sm:text-lg font-medium text-gray-900 mb-1 sm:mb-2">
+                                    Person-Centered Care</h3>
+                                <p class="text-sm sm:text-base text-gray-600">Treatment plans that promote
+                                    healing, resilience, and personal growth</p>
+                            </div>
+                        </div>
+                        <div class="flex items-start space-x-3 sm:space-x-4">
+                            <div class="w-2 h-2 bg-blue-600 rounded-full mt-2 sm:mt-3 flex-shrink-0"></div>
+                            <div>
+                                <h3 class="text-base sm:text-lg font-medium text-gray-900 mb-1 sm:mb-2">
+                                    Evidence-Based Solutions</h3>
+                                <p class="text-sm sm:text-base text-gray-600">Adaptive therapies that evolve
+                                    with your changing needs and life circumstances</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="mt-8 sm:mt-12"><a
+                            class="inline-flex items-center px-6 sm:px-8 py-2 sm:py-3 bg-blue-600 text-white hover:bg-blue-700 transition-colors whitespace-nowrap cursor-pointer text-sm sm:text-base rounded-full"
+                            href="/about">Learn More About Us<i class="ri-arrow-right-line ml-2"></i></a></div>
+                </div>
+                <div class="transition-all duration-1000 delay-300 opacity-0 translate-x-12 scale-95">
+                    <div class="relative"><img
+                            src="https://readdy.ai/api/search-image?query=Modern%20mental%20health%20therapy%20team%20working%20in%20bright%20calming%20therapeutic%20office%20space%20with%20comfortable%20seating%2C%20plants%2C%20and%20warm%20lighting%2C%20professional%20therapists%20and%20counselors%20collaborating%20on%20treatment%20plans%2C%20serene%20healing%20workspace%20with%20therapeutic%20materials%2C%20healthcare%20photography%20style&amp;width=800&amp;height=600&amp;seq=about-team&amp;orientation=landscape"
+                            alt="Our mental health care team"
+                            class="w-full h-64 sm:h-80 lg:h-96 object-cover object-top shadow-2xl" />
+                        <div class="absolute inset-0 bg-gradient-to-t from-blue-900/20 to-transparent"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="py-12 sm:py-16 lg:py-20 bg-white px-4 sm:px-6 lg:px-8" id="about"
+        style="transform:translateY(0px)">
+        <div class="max-w-7xl mx-auto">
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-8 sm:gap-12 lg:gap-16 items-center">
+                <div class="transition-all duration-1000 opacity-0 -translate-x-12">
+                    <h2
+                        class="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-light text-blue-800 mb-6 sm:mb-8 leading-tight">
+                        Healing with<br /><span class="text-teal-700">Compassion</span></h2>
+                    <p class="text-lg sm:text-xl text-gray-700 mb-6 sm:mb-8 leading-relaxed">We believe mental
+                        health care should heal and empower. Our integrated approach combines evidence-based
+                        therapy with personalized treatment plans to create healing journeys that nurture both
+                        mind and spirit.</p>
+                    <div class="space-y-4 sm:space-y-6">
+                        <div class="flex items-start space-x-3 sm:space-x-4">
+                            <div class="w-2 h-2 bg-blue-600 rounded-full mt-2 sm:mt-3 flex-shrink-0"></div>
+                            <div>
+                                <h3 class="text-base sm:text-lg font-medium text-gray-900 mb-1 sm:mb-2">Holistic
+                                    Mental Wellness</h3>
+                                <p class="text-sm sm:text-base text-gray-600">From therapy sessions to wellness
+                                    programs, we optimize every aspect of your mental health journey</p>
+                            </div>
+                        </div>
+                        <div class="flex items-start space-x-3 sm:space-x-4">
+                            <div class="w-2 h-2 bg-blue-600 rounded-full mt-2 sm:mt-3 flex-shrink-0"></div>
+                            <div>
+                                <h3 class="text-base sm:text-lg font-medium text-gray-900 mb-1 sm:mb-2">
+                                    Person-Centered Care</h3>
+                                <p class="text-sm sm:text-base text-gray-600">Treatment plans that promote
+                                    healing, resilience, and personal growth</p>
+                            </div>
+                        </div>
+                        <div class="flex items-start space-x-3 sm:space-x-4">
+                            <div class="w-2 h-2 bg-blue-600 rounded-full mt-2 sm:mt-3 flex-shrink-0"></div>
+                            <div>
+                                <h3 class="text-base sm:text-lg font-medium text-gray-900 mb-1 sm:mb-2">
+                                    Evidence-Based Solutions</h3>
+                                <p class="text-sm sm:text-base text-gray-600">Adaptive therapies that evolve
+                                    with your changing needs and life circumstances</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="mt-8 sm:mt-12"><a
+                            class="inline-flex items-center px-6 sm:px-8 py-2 sm:py-3 bg-blue-600 text-white hover:bg-blue-700 transition-colors whitespace-nowrap cursor-pointer text-sm sm:text-base rounded-full"
+                            href="/about">Learn More About Us<i class="ri-arrow-right-line ml-2"></i></a></div>
+                </div>
+                <div class="transition-all duration-1000 delay-300 opacity-0 translate-x-12 scale-95">
+                    <div class="relative"><img
+                            src="https://readdy.ai/api/search-image?query=Modern%20mental%20health%20therapy%20team%20working%20in%20bright%20calming%20therapeutic%20office%20space%20with%20comfortable%20seating%2C%20plants%2C%20and%20warm%20lighting%2C%20professional%20therapists%20and%20counselors%20collaborating%20on%20treatment%20plans%2C%20serene%20healing%20workspace%20with%20therapeutic%20materials%2C%20healthcare%20photography%20style&amp;width=800&amp;height=600&amp;seq=about-team&amp;orientation=landscape"
+                            alt="Our mental health care team"
+                            class="w-full h-64 sm:h-80 lg:h-96 object-cover object-top shadow-2xl" />
+                        <div class="absolute inset-0 bg-gradient-to-t from-blue-900/20 to-transparent"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="py-12 sm:py-16 lg:py-20 bg-gray-50 px-4 sm:px-6 lg:px-8" id="projects">
+        <div class="max-w-7xl mx-auto">
+            <div class="text-center mb-12 sm:mb-16 lg:mb-20">
+                <h2 class="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-light text-gray-900 mb-4 sm:mb-6">
+                    Featured<br /><span class="text-blue-700">Programs</span></h2>
+                <p class="text-lg sm:text-xl text-gray-600 max-w-3xl mx-auto mb-6 sm:mb-8 px-4">Each program
+                    represents our commitment to providing compassionate, evidence-based mental health care that
+                    transforms lives</p><a
+                    class="inline-flex items-center bg-blue-700 text-white px-6 sm:px-8 py-2 sm:py-3 rounded-full hover:bg-blue-600 transition-colors whitespace-nowrap cursor-pointer text-sm sm:text-base"
+                    href="/projects">View All Programs<i
+                        class="ri-arrow-right-line ml-2 w-4 h-4 flex items-center justify-center"></i></a>
+            </div>
+            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 sm:gap-8">
+                <div class="group transition-all duration-1000 opacity-0 translate-y-8 scale-95"
+                    style="transition-delay:0ms">
+                    <div
+                        class="relative overflow-hidden bg-white shadow-lg hover:shadow-2xl transition-all duration-500">
+                        <div class="relative h-64 sm:h-72 lg:h-80 overflow-hidden"><img
+                                src="https://readdy.ai/api/search-image?query=Modern%20mental%20health%20wellness%20center%20with%20comfortable%20therapy%20rooms%2C%20natural%20lighting%2C%20calming%20colors%2C%20peaceful%20waiting%20areas%20with%20plants%2C%20professional%20healthcare%20interior%20design%2C%20warm%20and%20welcoming%20atmosphere%2C%20soft%20furniture%20and%20healing%20spaces&amp;width=600&amp;height=800&amp;seq=project-1&amp;orientation=portrait"
+                                alt="Community Wellness Center"
+                                class="w-full h-full object-cover object-top group-hover:scale-105 transition-transform duration-700" />
+                            <div
+                                class="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500">
+                            </div>
+                            <div class="absolute top-4 right-4"><span
+                                    class="bg-blue-600 text-white px-2 sm:px-3 py-1 text-xs sm:text-sm font-medium">500+
+                                    Lives Transformed</span></div>
+                        </div>
+                        <div class="p-4 sm:p-6 lg:p-8">
+                            <h3
+                                class="text-lg sm:text-xl lg:text-2xl font-medium text-gray-900 mb-3 sm:mb-4 group-hover:text-blue-700 transition-colors duration-300">
+                                Community Wellness Center</h3>
+                            <p class="text-sm sm:text-base text-gray-600 leading-relaxed">Comprehensive mental
+                                health facility offering therapy, counseling, and support groups in a healing
+                                environment</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="group transition-all duration-1000 opacity-0 translate-y-8 scale-95"
+                    style="transition-delay:200ms">
+                    <div
+                        class="relative overflow-hidden bg-white shadow-lg hover:shadow-2xl transition-all duration-500">
+                        <div class="relative h-64 sm:h-72 lg:h-80 overflow-hidden"><img
+                                src="https://readdy.ai/api/search-image?query=Youth%20mental%20health%20center%20with%20colorful%20therapy%20rooms%2C%20teen-friendly%20spaces%2C%20group%20therapy%20areas%2C%20modern%20healthcare%20facility%20designed%20for%20teenagers%2C%20bright%20and%20encouraging%20interior%20with%20comfortable%20seating%20areas%20and%20natural%20elements&amp;width=600&amp;height=800&amp;seq=project-2&amp;orientation=portrait"
+                                alt="Youth Mental Health Program"
+                                class="w-full h-full object-cover object-top group-hover:scale-105 transition-transform duration-700" />
+                            <div
+                                class="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500">
+                            </div>
+                            <div class="absolute top-4 right-4"><span
+                                    class="bg-blue-600 text-white px-2 sm:px-3 py-1 text-xs sm:text-sm font-medium">95%
+                                    Recovery Success Rate</span></div>
+                        </div>
+                        <div class="p-4 sm:p-6 lg:p-8">
+                            <h3
+                                class="text-lg sm:text-xl lg:text-2xl font-medium text-gray-900 mb-3 sm:mb-4 group-hover:text-blue-700 transition-colors duration-300">
+                                Youth Mental Health Program</h3>
+                            <p class="text-sm sm:text-base text-gray-600 leading-relaxed">Specialized treatment
+                                center focused on adolescent mental health with family therapy and peer support
+                                programs</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="group transition-all duration-1000 opacity-0 translate-y-8 scale-95"
+                    style="transition-delay:400ms">
+                    <div
+                        class="relative overflow-hidden bg-white shadow-lg hover:shadow-2xl transition-all duration-500">
+                        <div class="relative h-64 sm:h-72 lg:h-80 overflow-hidden"><img
+                                src="https://readdy.ai/api/search-image?query=Professional%20crisis%20intervention%20center%20with%20emergency%20consultation%20rooms%2C%2024-hour%20healthcare%20facility%2C%20calming%20blue%20and%20white%20interior%20design%2C%20medical-grade%20mental%20health%20facility%20with%20private%20counseling%20spaces%20and%20supportive%20environment&amp;width=600&amp;height=800&amp;seq=project-3&amp;orientation=portrait"
+                                alt="Crisis Intervention Hub"
+                                class="w-full h-full object-cover object-top group-hover:scale-105 transition-transform duration-700" />
+                            <div
+                                class="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500">
+                            </div>
+                            <div class="absolute top-4 right-4"><span
+                                    class="bg-blue-600 text-white px-2 sm:px-3 py-1 text-xs sm:text-sm font-medium">24/7
+                                    Emergency Support</span></div>
+                        </div>
+                        <div class="p-4 sm:p-6 lg:p-8">
+                            <h3
+                                class="text-lg sm:text-xl lg:text-2xl font-medium text-gray-900 mb-3 sm:mb-4 group-hover:text-blue-700 transition-colors duration-300">
+                                Crisis Intervention Hub</h3>
+                            <p class="text-sm sm:text-base text-gray-600 leading-relaxed">24/7 crisis support
+                                center providing immediate mental health assistance and emergency counseling
+                                services</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="py-12 sm:py-16 lg:py-20 bg-white px-4 sm:px-6 lg:px-8" id="approach"
+        style="transform:translateY(0px)">
+        <div class="max-w-6xl mx-auto">
+            <div class="text-center mb-12 sm:mb-16 lg:mb-20">
+                <h2 class="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-light text-gray-900 mb-4 sm:mb-6">
+                    Our<br /><span class="text-blue-700">Approach</span></h2>
+                <p class="text-lg sm:text-xl text-gray-600 max-w-3xl mx-auto px-4">A comprehensive methodology
+                    that ensures every client receives personalized, evidence-based care while achieving
+                    sustainable mental wellness and recovery</p>
+            </div>
+            <div class="relative">
+                <div
+                    class="absolute left-4 sm:left-8 md:left-1/2 top-0 bottom-0 w-px bg-blue-200 transform md:-translate-x-px">
+                </div>
+                <div class="space-y-8 sm:space-y-12 lg:space-y-16">
+                    <div class="relative transition-all duration-1000 opacity-0 translate-y-12"
+                        style="transition-delay:0ms">
+                        <div class="flex flex-col md:flex-row items-start md:flex-row">
+                            <div class="w-full md:w-1/2 md:pr-8 lg:pr-16">
+                                <div
+                                    class="bg-white p-4 sm:p-6 lg:p-8 shadow-lg hover:shadow-xl transition-shadow duration-500 ml-8 sm:ml-12 md:ml-0">
+                                    <div class="flex items-center mb-4 sm:mb-6">
+                                        <div
+                                            class="w-12 h-12 sm:w-16 sm:h-16 bg-blue-100 flex items-center justify-center mr-3 sm:mr-4">
+                                            <i
+                                                class="ri-heart-pulse-line w-6 h-6 sm:w-8 sm:h-8 flex items-center justify-center text-blue-700 text-xl sm:text-2xl"></i>
+                                        </div><span
+                                            class="text-2xl sm:text-3xl lg:text-4xl font-light text-blue-200">01</span>
+                                    </div>
+                                    <h3
+                                        class="text-lg sm:text-xl lg:text-2xl font-medium text-gray-900 mb-3 sm:mb-4">
+                                        Initial Assessment &amp; Intake</h3>
+                                    <p class="text-sm sm:text-base text-gray-600 leading-relaxed">Comprehensive
+                                        mental health evaluation including psychological assessment, trauma
+                                        screening, and understanding of personal history and current challenges.
+                                    </p>
+                                </div>
+                            </div>
+                            <div
+                                class="absolute left-4 sm:left-8 md:left-1/2 w-3 h-3 sm:w-4 sm:h-4 bg-blue-600 rounded-full transform md:-translate-x-2 mt-6 sm:mt-8">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="relative transition-all duration-1000 opacity-0 translate-y-12"
+                        style="transition-delay:200ms">
+                        <div class="flex flex-col md:flex-row items-start md:flex-row-reverse">
+                            <div class="w-full md:w-1/2 md:pl-8 lg:pl-16">
+                                <div
+                                    class="bg-white p-4 sm:p-6 lg:p-8 shadow-lg hover:shadow-xl transition-shadow duration-500 ml-8 sm:ml-12 md:ml-0">
+                                    <div class="flex items-center mb-4 sm:mb-6">
+                                        <div
+                                            class="w-12 h-12 sm:w-16 sm:h-16 bg-blue-100 flex items-center justify-center mr-3 sm:mr-4">
+                                            <i
+                                                class="ri-clipboard-line w-6 h-6 sm:w-8 sm:h-8 flex items-center justify-center text-blue-700 text-xl sm:text-2xl"></i>
+                                        </div><span
+                                            class="text-2xl sm:text-3xl lg:text-4xl font-light text-blue-200">02</span>
+                                    </div>
+                                    <h3
+                                        class="text-lg sm:text-xl lg:text-2xl font-medium text-gray-900 mb-3 sm:mb-4">
+                                        Treatment Planning</h3>
+                                    <p class="text-sm sm:text-base text-gray-600 leading-relaxed">Collaborative
+                                        development of personalized treatment plans using evidence-based
+                                        therapies tailored to individual needs and recovery goals.</p>
+                                </div>
+                            </div>
+                            <div
+                                class="absolute left-4 sm:left-8 md:left-1/2 w-3 h-3 sm:w-4 sm:h-4 bg-blue-600 rounded-full transform md:-translate-x-2 mt-6 sm:mt-8">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="relative transition-all duration-1000 opacity-0 translate-y-12"
+                        style="transition-delay:400ms">
+                        <div class="flex flex-col md:flex-row items-start md:flex-row">
+                            <div class="w-full md:w-1/2 md:pr-8 lg:pr-16">
+                                <div
+                                    class="bg-white p-4 sm:p-6 lg:p-8 shadow-lg hover:shadow-xl transition-shadow duration-500 ml-8 sm:ml-12 md:ml-0">
+                                    <div class="flex items-center mb-4 sm:mb-6">
+                                        <div
+                                            class="w-12 h-12 sm:w-16 sm:h-16 bg-blue-100 flex items-center justify-center mr-3 sm:mr-4">
+                                            <i
+                                                class="ri-hand-heart-line w-6 h-6 sm:w-8 sm:h-8 flex items-center justify-center text-blue-700 text-xl sm:text-2xl"></i>
+                                        </div><span
+                                            class="text-2xl sm:text-3xl lg:text-4xl font-light text-blue-200">03</span>
+                                    </div>
+                                    <h3
+                                        class="text-lg sm:text-xl lg:text-2xl font-medium text-gray-900 mb-3 sm:mb-4">
+                                        Therapeutic Intervention</h3>
+                                    <p class="text-sm sm:text-base text-gray-600 leading-relaxed">Implementation
+                                        of specialized therapy modalities including CBT, DBT, trauma-informed
+                                        care, and holistic healing approaches.</p>
+                                </div>
+                            </div>
+                            <div
+                                class="absolute left-4 sm:left-8 md:left-1/2 w-3 h-3 sm:w-4 sm:h-4 bg-blue-600 rounded-full transform md:-translate-x-2 mt-6 sm:mt-8">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="relative transition-all duration-1000 opacity-0 translate-y-12"
+                        style="transition-delay:600ms">
+                        <div class="flex flex-col md:flex-row items-start md:flex-row-reverse">
+                            <div class="w-full md:w-1/2 md:pl-8 lg:pl-16">
+                                <div
+                                    class="bg-white p-4 sm:p-6 lg:p-8 shadow-lg hover:shadow-xl transition-shadow duration-500 ml-8 sm:ml-12 md:ml-0">
+                                    <div class="flex items-center mb-4 sm:mb-6">
+                                        <div
+                                            class="w-12 h-12 sm:w-16 sm:h-16 bg-blue-100 flex items-center justify-center mr-3 sm:mr-4">
+                                            <i
+                                                class="ri-line-chart-line w-6 h-6 sm:w-8 sm:h-8 flex items-center justify-center text-blue-700 text-xl sm:text-2xl"></i>
+                                        </div><span
+                                            class="text-2xl sm:text-3xl lg:text-4xl font-light text-blue-200">04</span>
+                                    </div>
+                                    <h3
+                                        class="text-lg sm:text-xl lg:text-2xl font-medium text-gray-900 mb-3 sm:mb-4">
+                                        Progress Monitoring</h3>
+                                    <p class="text-sm sm:text-base text-gray-600 leading-relaxed">Continuous
+                                        evaluation of treatment effectiveness through regular assessments,
+                                        outcome tracking, and plan adjustments for optimal recovery.</p>
+                                </div>
+                            </div>
+                            <div
+                                class="absolute left-4 sm:left-8 md:left-1/2 w-3 h-3 sm:w-4 sm:h-4 bg-blue-600 rounded-full transform md:-translate-x-2 mt-6 sm:mt-8">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="flex flex-col sm:flex-row gap-4 sm:gap-6 justify-center mt-8 sm:mt-12"><a
+                    href="/approach"><button
+                        class="bg-blue-600 hover:bg-blue-700 text-white px-6 sm:px-8 py-3 sm:py-4 text-base sm:text-lg font-medium transition-all duration-300 transform hover:scale-105 whitespace-nowrap cursor-pointer w-full sm:w-auto rounded-full">Learn
+                        About Our Process</button></a></div>
+        </div>
+    </section>
+    <section class="py-12 sm:py-16 lg:py-20 bg-gray-900 text-white relative overflow-hidden" id="contact">
+        <div class="absolute inset-0 bg-cover bg-center"
+            style="background-image:url(&#x27;https://readdy.ai/api/search-image?query=Peaceful%20therapy%20garden%20with%20comfortable%20seating%20areas%2C%20soft%20natural%20lighting%20filtering%20through%20trees%2C%20serene%20outdoor%20healing%20space%20with%20calming%20water%20features%2C%20therapeutic%20landscaping%20design%2C%20warm%20earth%20tones%20and%20gentle%20shadows%20creating%20safe%20healing%20environment%2C%20mindfulness%20meditation%20space&amp;width=1920&amp;height=1080&amp;seq=contact-bg-mental-health&amp;orientation=landscape&#x27;);transform:translateY(0px)">
+        </div>
+        <div class="absolute inset-0 bg-gradient-to-r from-blue-900/80 to-teal-900/70"></div>
+        <div class="relative z-10 max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-8 sm:gap-12 lg:gap-16 items-start">
+                <div class="transition-all duration-1000 opacity-0 -translate-x-12">
+                    <h2
+                        class="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-light text-white mb-6 sm:mb-8 leading-tight">
+                        Begin Your<br /><span class="text-blue-300">Healing Journey</span></h2>
+                    <p class="text-lg sm:text-xl text-white/90 mb-8 sm:mb-12 leading-relaxed">You don&#x27;t
+                        have to face mental health challenges alone. Our compassionate team is here to support
+                        you with personalized care and evidence-based treatment options.</p>
+                    <div class="space-y-4 sm:space-y-6">
+                        <div class="flex items-center space-x-3 sm:space-x-4">
+                            <div
+                                class="w-10 h-10 sm:w-12 sm:h-12 bg-blue-600 flex items-center justify-center flex-shrink-0">
+                                <i
+                                    class="ri-phone-line w-5 h-5 sm:w-6 sm:h-6 flex items-center justify-center text-white"></i>
+                            </div>
+                            <div>
+                                <p class="text-white font-medium text-sm sm:text-base">Call Us</p>
+                                <p class="text-white/80 text-sm sm:text-base">+1 (555) 987-6543</p>
+                            </div>
+                        </div>
+                        <div class="flex items-center space-x-3 sm:space-x-4">
+                            <div
+                                class="w-10 h-10 sm:w-12 sm:h-12 bg-red-600 flex items-center justify-center flex-shrink-0">
+                                <i
+                                    class="ri-heart-pulse-line w-5 h-5 sm:w-6 sm:h-6 flex items-center justify-center text-white"></i>
+                            </div>
+                            <div>
+                                <p class="text-white font-medium text-sm sm:text-base">Crisis Line</p>
+                                <p class="text-white/80 text-sm sm:text-base">(555) 911-HELP - Available 24/7
+                                </p>
+                            </div>
+                        </div>
+                        <div class="flex items-center space-x-3 sm:space-x-4">
+                            <div
+                                class="w-10 h-10 sm:w-12 sm:h-12 bg-blue-600 flex items-center justify-center flex-shrink-0">
+                                <i
+                                    class="ri-mail-line w-5 h-5 sm:w-6 sm:h-6 flex items-center justify-center text-white"></i>
+                            </div>
+                            <div>
+                                <p class="text-white font-medium text-sm sm:text-base">Email</p>
+                                <p class="text-white/80 text-sm sm:text-base">support@healingminds.com</p>
+                            </div>
+                        </div>
+                        <div class="flex items-center space-x-3 sm:space-x-4">
+                            <div
+                                class="w-10 h-10 sm:w-12 sm:h-12 bg-blue-600 flex items-center justify-center flex-shrink-0">
+                                <i
+                                    class="ri-map-pin-line w-5 h-5 sm:w-6 sm:h-6 flex items-center justify-center text-white"></i>
+                            </div>
+                            <div>
+                                <p class="text-white font-medium text-sm sm:text-base">Visit Us</p>
+                                <p class="text-white/80 text-sm sm:text-base">456 Wellness Avenue, Healing City,
+                                    HC 90210</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="transition-all duration-1000 delay-300 opacity-0 translate-x-12">
+                    <form id="contact-form" class="bg-white/95 backdrop-blur-sm p-4 sm:p-6 lg:p-8 shadow-2xl">
+                        <div class="grid grid-cols-1 sm:grid-cols-2 gap-4 sm:gap-6 mb-4 sm:mb-6">
+                            <div><label for="name" class="block text-sm font-medium text-gray-700 mb-2">Name
+                                    *</label><input type="text" id="name" required=""
+                                    class="w-full px-3 sm:px-4 py-2 sm:py-3 border border-gray-300 focus:ring-2 focus:ring-blue-500 focus:border-transparent text-sm"
+                                    name="name" value="" /></div>
+                            <div><label for="email" class="block text-sm font-medium text-gray-700 mb-2">Email
+                                    *</label><input type="email" id="email" required=""
+                                    class="w-full px-3 sm:px-4 py-2 sm:py-3 border border-gray-300 focus:ring-2 focus:ring-blue-500 focus:border-transparent text-sm"
+                                    name="email" value="" /></div>
+                        </div>
+                        <div class="grid grid-cols-1 sm:grid-cols-2 gap-4 sm:gap-6 mb-4 sm:mb-6">
+                            <div><label for="phone"
+                                    class="block text-sm font-medium text-gray-700 mb-2">Phone</label><input
+                                    type="tel" id="phone"
+                                    class="w-full px-3 sm:px-4 py-2 sm:py-3 border border-gray-300 focus:ring-2 focus:ring-blue-500 focus:border-transparent text-sm"
+                                    name="phone" value="" /></div>
+                            <div><label for="supportType"
+                                    class="block text-sm font-medium text-gray-700 mb-2">Support Needed</label>
+                                <div class="relative"><select id="supportType" name="supportType"
+                                        class="w-full px-3 sm:px-4 py-2 sm:py-3 pr-8 border border-gray-300 focus:ring-2 focus:ring-blue-500 focus:border-transparent text-sm appearance-none bg-white">
+                                        <option value="" selected="">Select support type</option>
+                                        <option value="individual-therapy">Individual Therapy</option>
+                                        <option value="group-therapy">Group Therapy</option>
+                                        <option value="couples-therapy">Couples Therapy</option>
+                                        <option value="crisis-support">Crisis Support</option>
+                                        <option value="consultation">Consultation</option>
+                                    </select><i
+                                        class="ri-arrow-down-s-line absolute right-3 top-1/2 transform -translate-y-1/2 w-4 h-4 flex items-center justify-center text-gray-400 pointer-events-none"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="mb-4 sm:mb-6"><label for="message"
+                                class="block text-sm font-medium text-gray-700 mb-2">How can we help you? * (Max
+                                500 characters)</label><textarea id="message" name="message" required=""
+                                maxLength="500" rows="4"
+                                class="w-full px-3 sm:px-4 py-2 sm:py-3 border border-gray-300 focus:ring-2 focus:ring-blue-500 focus:border-transparent resize-none text-sm"
+                                placeholder="Share what brings you here today and how we can support your mental wellness journey..."></textarea>
+                            <div class="text-right text-sm text-gray-500 mt-1">0<!-- -->/500</div>
+                        </div><button type="submit"
+                            class="w-full bg-blue-700 text-white py-3 sm:py-4 px-4 sm:px-6 hover:bg-blue-800 disabled:bg-gray-400 transition-colors duration-300 font-medium whitespace-nowrap cursor-pointer rounded-full text-sm sm:text-base">Start
+                            Your Healing Journey</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+</main>
+
+
+
+
+<?php get_footer(); ?>
