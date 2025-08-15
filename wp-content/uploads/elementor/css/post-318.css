@@ -1,0 +1,84 @@
+.elementor-widget-container .eael-protected-content-message{font-family:var( --e-global-typography-secondary-font-family ), Sans-serif;font-weight:var( --e-global-typography-secondary-font-weight );}.elementor-widget-container .protected-content-error-msg{font-family:var( --e-global-typography-secondary-font-family ), Sans-serif;font-weight:var( --e-global-typography-secondary-font-weight );}.elementor-318 .elementor-element.elementor-element-4b8f19a{--display:flex;--flex-direction:column;--container-widget-width:100%;--container-widget-height:initial;--container-widget-flex-grow:0;--container-widget-align-self:initial;--flex-wrap-mobile:wrap;}.elementor-318 .elementor-element.elementor-element-a99916b{--display:flex;--flex-direction:column;--container-widget-width:100%;--container-widget-height:initial;--container-widget-flex-grow:0;--container-widget-align-self:initial;--flex-wrap-mobile:wrap;}.elementor-widget-html .eael-protected-content-message{font-family:var( --e-global-typography-secondary-font-family ), Sans-serif;font-weight:var( --e-global-typography-secondary-font-weight );}.elementor-widget-html .protected-content-error-msg{font-family:var( --e-global-typography-secondary-font-family ), Sans-serif;font-weight:var( --e-global-typography-secondary-font-weight );}/* Start custom CSS for html, class: .elementor-element-ac3e4f6 */.chat-container {
+  max-width: 450px;       /* wider width */
+  height: 180px;          /* shorter height */
+  margin: 10px auto;
+  font-family: Arial, sans-serif;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  overflow: hidden;
+  background-color: #f9f9f9;
+  display: flex;
+  flex-direction: column;
+}
+
+.chat-messages {
+  flex: 1;
+  padding: 6px;
+  overflow-y: auto;
+  background-color: #fff;
+  font-size: 13px;
+}
+
+.chat-input {
+  display: flex;
+  border-top: 1px solid #ccc;
+  padding: 4px;
+  background-color: #f0f0f0;
+}
+
+.chat-input input {
+  flex: 1;
+  padding: 4px 8px;
+  border-radius: 18px;
+  border: 1px solid #ccc;
+  font-size: 13px;
+  outline: none;
+}
+
+.chat-input button {
+  margin-left: 4px;
+  padding: 4px 10px;
+  border: none;
+  border-radius: 18px;
+  background-color: #4caf50;
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  font-size: 13px;
+}
+
+.chat-input button:hover {
+  background-color: #45a049;
+}
+
+.user {
+  background-color: #d1e7ff;
+  color: #000;
+  padding: 4px 8px;
+  border-radius: 12px;
+  margin: 3px 0;
+  max-width: 70%;
+  align-self: flex-end;
+  font-size: 13px;
+}
+
+.bot {
+  background-color: #e6ffe6;
+  color: #000;
+  padding: 4px 8px;
+  border-radius: 12px;
+  margin: 3px 0;
+  max-width: 70%;
+  align-self: flex-start;
+  font-size: 13px;
+}
+
+/* Optional: Scrollbar styling */
+.chat-messages::-webkit-scrollbar {
+  width: 4px;
+}
+
+.chat-messages::-webkit-scrollbar-thumb {
+  background-color: #ccc;
+  border-radius: 2px;
+}/* End custom CSS */

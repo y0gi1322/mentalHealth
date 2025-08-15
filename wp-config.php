@@ -100,3 +100,4 @@ if ( ! defined( 'ABSPATH' ) ) {
 
 /** Sets up WordPress vars and included files. */
 require_once ABSPATH . 'wp-settings.php';
+define('DEEPSEEK_API_KEY', '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');

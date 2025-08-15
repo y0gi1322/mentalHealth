@@ -1,0 +1,38 @@
+.elementor-widget-container .eael-protected-content-message{font-family:var( --e-global-typography-secondary-font-family ), Sans-serif;font-weight:var( --e-global-typography-secondary-font-weight );}.elementor-widget-container .protected-content-error-msg{font-family:var( --e-global-typography-secondary-font-family ), Sans-serif;font-weight:var( --e-global-typography-secondary-font-weight );}.elementor-322 .elementor-element.elementor-element-b4de3a2{--display:flex;--flex-direction:column;--container-widget-width:100%;--container-widget-height:initial;--container-widget-flex-grow:0;--container-widget-align-self:initial;--flex-wrap-mobile:wrap;}.elementor-322 .elementor-element.elementor-element-55a34ecb{--display:flex;--flex-direction:column;--container-widget-width:100%;--container-widget-height:initial;--container-widget-flex-grow:0;--container-widget-align-self:initial;--flex-wrap-mobile:wrap;}.elementor-widget-html .eael-protected-content-message{font-family:var( --e-global-typography-secondary-font-family ), Sans-serif;font-weight:var( --e-global-typography-secondary-font-weight );}.elementor-widget-html .protected-content-error-msg{font-family:var( --e-global-typography-secondary-font-family ), Sans-serif;font-weight:var( --e-global-typography-secondary-font-weight );}/* Start custom CSS for html, class: .elementor-element-5884781b */.chat-container {
+  background: white;
+  border-radius: 12px;
+  padding: 15px;
+  max-width: 500px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  height: 400px;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+}
+
+.chat-messages {
+  flex: 1;
+  overflow-y: auto;
+  padding-bottom: 10px;
+}
+
+.chat-input {
+  display: flex;
+  gap: 8px;
+}
+
+.chat-input input {
+  flex: 1;
+  padding: 10px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+}
+
+.chat-input button {
+  padding: 10px 15px;
+  background: #10a37f;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}/* End custom CSS */
